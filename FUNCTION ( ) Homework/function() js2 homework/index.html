@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./stylye.css">
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+
+    <div class="calculator">
+        <input type="number" class="screen" id="display1" placeholder="Birini qo'shadigan raqamlar">
+        <input type="number" class="screen" id="display2" placeholder="ikkinchi qo'shiladinga raqamlar">
+        <input type="text"   class="screen" id="display3" placeholder="parametorni button orqali kiriting" disabled>
+        <input type="text"   class="screen" id="display4" placeholder="javob" disabled>
+
+        <div class="buttons">
+            <button onclick="clearDisplay()">C</button>
+            <button onclick="appendToDisplay('/')">/</button>
+            <button onclick="appendToDisplay('*')">*</button>
+            <button onclick="appendToDisplay('-')">-</button>
+            <button onclick="calculateResult()">=</button>
+            <button onclick="appendToDisplay('+')">+</button>
+        </div>
+    </div>
+
+</body>
+
+</html>

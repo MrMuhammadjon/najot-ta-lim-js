@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="./script.js" defer></script>
+</head>
+
+<body>
+    <!-- 
+    
+    
+    // Task 1: Avtomobilning brendini olish
+let car = { brand: "Toyota", engine: { type: "V8", power: "300hp" } };
+// Vazifa: "car" obyekti orqali avtomobilning "brand" qiymatini olish.
+
+
+// Task 2: Avtomobilning "power" qiymatini "350hp" ga o'zgartiring
+// Vazifa: "car" obyektining "engine" ichidagi "power" qiymatini "350hp" ga o'zgartiring.
+
+
+// Task 3: Talabaning birinchi fanini olish
+let student = { name: "Bob", subjects: ["Math", "Science", "History"] };
+// Vazifa: "student" obyekti orqali talabaning birinchi fanini olish.
+
+
+// Task 4: Talabaning barcha fanlarini ko'rsatish
+// Vazifa: "student" obyekti orqali talabaning barcha fanlarini ekranga chiqarish uchun sikl (loop) ishlating.
+
+
+// Task 5: Kitobning nomini olish
+let book = { title: "Programming 101", chapters: ["Intro", "Variables", "Loops", "Objects"] };
+// Vazifa: "book" obyekti orqali kitobning "title" (nomi) qiymatini olish.
+
+
+// Task 6: Kitobning birinchi bobini olish
+// Vazifa: "book" obyekti orqali kitobning "chapters" (boblar) ichidan birinchi bobni olish.
+
+
+// Task 7: Talabaning ismini "Charlie" ga o'zgartiring
+// Vazifa: "student" obyekti orqali talabaning ismini "Charlie" ga o'zgartiring.
+
+
+// Task 8: Kitobga yangi bob qo'shish (masalan, "Functions" bobini qo'shing)
+// Vazifa: "book" obyekti orqali kitobga yangi bob qo'shish.
+
+// Task 9: Kompaniyaning birinchi xodimining ismini olish
+let company = {
+  name: "Tech Corp",
+  employees: [
+    { name: "Alice", position: "Developer" },
+    { name: "Bob", position: "Designer" }
+  ]
+};
+// Vazifa: "company" obyekti orqali kompaniyaning birinchi xodimining "name" qiymatini olish.
+
+
+// Task 10: Kompaniyaning ikkinchi xodimining lavozimini olish
+// Vazifa: "company" obyekti orqali kompaniyaning ikkinchi xodimining "position" (lavozim) qiymatini olish.
+
+
+// Task 11: Kutubxonaga yangi kitob qo'shish
+let library = {
+  name: "City Library",
+  books: [
+    { title: "The Great Gatsby", author: "F. Scott Fitzgerald" },
+    { title: "1984", author: "George Orwell" }
+  ]
+};
+// Vazifa: "library" obyekti orqali kutubxonaga yangi kitob qo'shing.
+
+
+// Task 12: Birinchi kitobning muallifini olish
+// Vazifa: "library" obyekti orqali birinchi kitobning "author" qiymatini olish.
+
+
+// Task 13: Talabaning oxirgi fanini olib tashlash
+// Vazifa: "student" obyekti orqali talabaning oxirgi fanini olib tashlash.
+
+
+// Task 14: Kitob nomini "JavaScript Basics" ga o'zgartiring
+// Vazifa: "book" obyekti orqali kitob nomini "JavaScript Basics" ga o'zgartiring.
+
+
+// Task 15: Talabaning fanlar ro'yxatiga "Art" fanini qo'shish
+// Vazifa: "student" obyekti orqali talabaning "subjects" ro'yxatiga "Art" fanini qo'shing.
+
+
+// Task 16: Kutubxonadagi kitoblar sonini hisoblash
+let numberOfBooks = 0;
+// Vazifa: "library" obyekti orqali kutubxonadagi kitoblar sonini hisoblang.
+
+
+// Task 17: Kitobda "JavaScript" bobining borligini tekshirish
+// Vazifa: "book" obyekti orqali kitobdagi "chapters" ro'yxatida "JavaScript" bobi mavjudligini tekshiring.
+
+
+// Task 18: Ikkita ob'ektni birlashtiring (masalan, shaxs va aloqa ma'lumotlari)
+// Vazifa: "person" va "contact" ob'ektlarini birlashtirib, yangi ob'ekt yaratish.
+
+// Task 19: Talabaning ismini "Alice" deb o'zgartiring
+// Vazifa: "student" obyekti orqali talabaning ismini "Alice" ga o'zgartiring.
+
+
+// Task 20: Kompaniyadagi barcha xodimlarning ismlarini ko'rsating
+// Vazifa: "company" obyekti orqali kompaniyadagi barcha xodimlarning ismlarini chiqarish uchun sikl (loop) ishlating.
+
+
+// Task 1: Talabaning barcha fanlarini ekranga chiqarish
+let student = { name: "Bob", subjects: ["Math", "Science", "History"] };
+// Vazifa: "student" obyekti orqali talabaning "subjects" ro'yxatidagi barcha fanlarni ekranga chiqarish uchun sikl (loop) ishlating.
+
+// Task 2: Kitobdagi barcha boblarni ekranga chiqarish
+let book = { title: "Programming 101", chapters: ["Intro", "Variables", "Loops", "Objects"] };
+// Vazifa: "book" obyekti orqali kitobning "chapters" ro'yxatidagi barcha boblarni ekranga chiqarish uchun sikl (loop) ishlating.
+
+// Task 3: Kompaniyaning barcha xodimlarini ekranga chiqarish
+let company = {
+  name: "Tech Corp",
+  employees: [
+    { name: "Alice", position: "Developer" },
+    { name: "Bob", position: "Designer" }
+  ]
+};
+// Vazifa: "company" obyekti orqali kompaniyaning "employees" ro'yxatidagi barcha xodimlarning ismlarini chiqarish uchun sikl (loop) ishlating.
+
+// Task 4: Kutubxonadagi kitoblar ro'yxatini ekranga chiqarish
+let library = {
+  name: "City Library",
+  books: [
+    { title: "The Great Gatsby", author: "F. Scott Fitzgerald" },
+    { title: "1984", author: "George Orwell" }
+  ]
+};
+// Vazifa: "library" obyekti orqali kutubxonadagi barcha kitoblarning nomlarini chiqarish uchun sikl (loop) ishlating.
+
+// Task 5: Talabaning fanlaridagi har bir fan nomining uzunligini tekshirib chiqish
+// Vazifa: "student" obyekti orqali "subjects" ro'yxatidagi har bir fan nomining uzunligini tekshirib chiqing va ekranga chiqarish uchun sikl (loop) ishlating.
+
+// Task 6: Kompaniyaning xodimlarining lavozimlarini ekranga chiqarish
+// Vazifa: "company" obyekti orqali kompaniyaning "employees" ro'yxatidagi barcha xodimlarning lavozimlarini chiqarish uchun sikl (loop) ishlating.
+
+// Task 7: Talabaning fanlaridagi nomlar alifbo bo'yicha tartiblansin
+// Vazifa: "student" obyekti orqali "subjects" ro'yxatidagi barcha fanlarni alifbo bo'yicha tartiblash va ekranga chiqarish uchun sikl (loop) ishlating.
+
+// Task 8: Kitobdagi boblarni "Loop" so'zi mavjud bo'lsa, tekshirib chiqish
+// Vazifa: "book" obyekti orqali "chapters" ro'yxatida har bir bobni tekshirib, agar "Loop" so'zi mavjud bo'lsa, uni ekranga chiqarish uchun sikl (loop) ishlating.
+
+// Task 9: Talabaning fanlaridagi faqat uzun nomli fanlarni ekranga chiqarish
+// Vazifa: "student" obyekti orqali "subjects" ro'yxatidagi uzun nomli fanlarni (masalan, uzunlik 6 tadan katta bo'lgan) ekranga chiqarish uchun sikl (loop) ishlating.
+
+// Task 10: Kitobning barcha boblarini katta harflarda ekranga chiqarish
+// Vazifa: "book" obyekti orqali kitobning "chapters" ro'yxatidagi barcha boblarni katta harflarda chiqarish uchun sikl (loop) ishlating.
+    
+
+
+    -->
+
+
+
+    <h1 id="h-1">
+    </h1>
+</body>
+
+</html>
