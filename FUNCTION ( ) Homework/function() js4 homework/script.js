@@ -127,3 +127,44 @@
 
 // let sampleString = "Hello123 Мир";
 // console.log(`Swapped case string: ${swapCase(sampleString)}`);
+
+
+// task---11
+
+// function checkNumberType(str) {
+//     if (!isNaN(str) && str.trim() !== "") {
+//         if (Number.isInteger(Number(str))) {
+//             return 1; 
+//         } else {
+//             return 2; 
+//         }
+//     }
+//     return 0;
+// }
+
+// console.log(checkNumberType("22.1"));
+
+
+// task---12
+
+
+// function getInverseNumber(n) {
+//     if (typeof n !== "number" || isNaN(n)) {
+//         return null; 
+//     }
+    
+//     let reversed = parseFloat(n.toString().split('').reverse().join('')) * Math.sign(n);
+//     return reversed;
+// }
+
+// console.log(getInverseNumber(1234));  
+
+
+// task---13
+
+// function duplicateCharacter(S, C) {
+//     return S.split(C).join(C + C);
+// }
+
+// console.log(duplicateCharacter("hello world", "o"));
+
