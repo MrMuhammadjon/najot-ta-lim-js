@@ -130,6 +130,13 @@
 // console.log(arr); // [0, 0, 0, 0, 0]
 
 
+//   ------------------ replace() -----------------------
+
+// let matn = "salom dunyo";
+// let yangiMatn = matn.replace("dunyo", "O'zbekiston");
+// console.log(yangiMatn); // "salom O'zbekiston"
+
+
 
 // const array = ["value 1", "value 2", undefined, 1, null, "value 3", null, undefined, "value 4"];
 

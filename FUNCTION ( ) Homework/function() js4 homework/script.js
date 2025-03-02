@@ -90,6 +90,7 @@
 //  task---8
 
 
+
 // task---9\
 
 // function countLowercaseLetters(str) {
@@ -152,7 +153,7 @@
 //     if (typeof n !== "number" || isNaN(n)) {
 //         return null; 
 //     }
-    
+
 //     let reversed = parseFloat(n.toString().split('').reverse().join('')) * Math.sign(n);
 //     return reversed;
 // }
@@ -167,4 +168,107 @@
 // }
 
 // console.log(duplicateCharacter("hello world", "o"));
+
+
+// task---14
+
+
+// function hosilQil(S1, S2, N1, N2) {
+//     let yangiSatr = S1.slice(0, N1) + S2.slice(-N2);
+//     return yangiSatr;
+// }
+
+// let S1 = "Matematika";
+// let S2 = "Informatika";
+// let N1 = 4;
+// let N2 = 5;
+
+// console.log(hosilQil(S1, S2, N1, N2)); 
+
+
+
+
+// task---15
+
+// function ikkiMartaQosh(S, C) {
+//     let yangiSatr = "";
+
+//     for (let i = 0; i < S.length; i++) {
+//         yangiSatr += S[i];
+//         if (S[i] === C) {
+//             yangiSatr += C;
+//         }
+//     }
+
+//     return yangiSatr;
+// }
+
+// let S = "salom";
+// let C = "o";
+
+// console.log(ikkiMartaQosh(S, C));
+
+// task---16
+
+// function belgiOldigaQosh(S1, S2, C) {
+//     let yangiSatr = "";
+
+//     for (let i = 0; i < S1.length; i++) {
+//         if (S1[i] === C) {
+//             yangiSatr += S2;
+//         }
+//         yangiSatr += S1[i];
+//     }
+
+//     return yangiSatr;
+// }
+
+
+// let S1 = "banana";
+// let S2 = "-";
+// let C = "a";
+
+// console.log(belgiOldigaQosh(S1, S2, C));
+
+
+// task---17
+
+// function bir(S1, S2) {
+//     return S1.replace(S2, "");
+// }
+
+// // Misol
+// let S1 = "banana";
+// let S2 = "na";
+
+// console.log(bir(S1, S2));
+
+
+// task---18
+
+
+// function barchaUchrashuvlarniOchirish(S1, S2) {
+//     return S1.split(S2).join(""); 
+// }
+
+// // Misol
+// let S1 = "banana";
+// let S2 = "na";
+
+// console.log(barchaUchrashuvlarniOchirish(S1, S2));
+
+//  task---19
+
+
+//  task---20
+
+// function birinchiUchrashniAlmashtirish(S1, S2, S3) {
+//     return S1.replace(S2, S3); 
+// }
+
+// let S1 = "banana";
+// let S2 = "na";
+// let S3 = "xy";
+
+// console.log(birinchiUchrashniAlmashtirish(S1, S2, S3)); // 
 
