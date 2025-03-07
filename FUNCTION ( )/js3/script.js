@@ -88,6 +88,6 @@
 
 //  loader ------------------ 
 
-let fill = document.getElementById('fill')
+// let fill = document.getElementById('fill')
 
-let 
+// let 
